@@ -1,0 +1,342 @@
+ArgScopeTest	./pvanet/slim/scopes_test.py	/^class ArgScopeTest(/
+AvgPoolTest	./pvanet/slim/ops_test.py	/^class AvgPoolTest(/
+BatchNormTest	./pvanet/slim/ops_test.py	/^class BatchNormTest(/
+BoundingBox	./pvanet/data/process_bounding_boxes.py	/^class BoundingBox(/
+CollectionsTest	./pvanet/slim/collections_test.py	/^class CollectionsTest(/
+ConvTest	./pvanet/slim/ops_test.py	/^class ConvTest(/
+CrossEntropyLossTest	./pvanet/slim/losses_test.py	/^class CrossEntropyLossTest(/
+Dataset	./pvanet/dataset.py	/^class Dataset(/
+DevFn	./pvanet/slim/variables_test.py	/^    class DevFn(/
+DevFn	./pvanet/slim/variables_test.py	/^    class DevFn(/
+DropoutTest	./pvanet/slim/ops_test.py	/^class DropoutTest(/
+FCTest	./pvanet/slim/ops_test.py	/^class FCTest(/
+FindNumberBoundingBoxes	./pvanet/data/process_bounding_boxes.py	/^def FindNumberBoundingBoxes(/
+FlattenTest	./pvanet/slim/ops_test.py	/^class FlattenTest(/
+GetInt	./pvanet/data/process_bounding_boxes.py	/^def GetInt(/
+GetItem	./pvanet/data/process_bounding_boxes.py	/^def GetItem(/
+GetVariablesByNameTest	./pvanet/slim/variables_test.py	/^class GetVariablesByNameTest(/
+GlobalStepTest	./pvanet/slim/variables_test.py	/^class GlobalStepTest(/
+ImageCoder	./pvanet/data/build_image_data.py	/^class ImageCoder(/
+ImageCoder	./pvanet/data/build_imagenet_data.py	/^class ImageCoder(/
+ImagenetData	./pvanet/imagenet_data.py	/^class ImagenetData(/
+InceptionTest	./pvanet/slim/pvanet_test.py	/^class InceptionTest(/
+LossesTest	./pvanet/slim/losses_test.py	/^class LossesTest(/
+MaxPoolTest	./pvanet/slim/ops_test.py	/^class MaxPoolTest(/
+Network	./pvanet/slim/network.py	/^class Network(/
+OneHotEncodingTest	./pvanet/slim/ops_test.py	/^class OneHotEncodingTest(/
+PVAnet_ImageNet	./pvanet/slim/PVAnet_ImageNet.py	/^class PVAnet_ImageNet(/
+PVAnet_ImageNet	./pvanet/slim/PVAnet_ImageNet.py	1
+ProcessXMLAnnotation	./pvanet/data/process_bounding_boxes.py	/^def ProcessXMLAnnotation(/
+RegularizersTest	./pvanet/slim/losses_test.py	/^class RegularizersTest(/
+VariableDeviceChooser	./pvanet/slim/variables.py	/^class VariableDeviceChooser(/
+VariablesTest	./pvanet/slim/variables_test.py	/^class VariablesTest(/
+__call__	./pvanet/slim/variables.py	/^  def __call__(/
+__call__	./pvanet/slim/variables_test.py	/^      def __call__(/
+__call__	./pvanet/slim/variables_test.py	/^      def __call__(/
+__init__	./pvanet/data/build_image_data.py	/^  def __init__(/
+__init__	./pvanet/data/build_imagenet_data.py	/^  def __init__(/
+__init__	./pvanet/dataset.py	/^  def __init__(/
+__init__	./pvanet/imagenet_data.py	/^  def __init__(/
+__init__	./pvanet/slim/PVAnet_ImageNet.py	/^    def __init__(/
+__init__	./pvanet/slim/network.py	/^    def __init__(/
+__init__	./pvanet/slim/variables.py	/^  def __init__(/
+__init__	./pvanet/slim/variables_test.py	/^      def __init__(/
+__init__	./pvanet/slim/variables_test.py	/^      def __init__(/
+_activation_summaries	./pvanet/pvanet_model.py	/^def _activation_summaries(/
+_activation_summary	./pvanet/pvanet_model.py	/^def _activation_summary(/
+_add_op	./pvanet/slim/scopes.py	/^def _add_op(/
+_average_gradients	./pvanet/pvanet_train.py	/^def _average_gradients(/
+_build_bounding_box_lookup	./pvanet/data/build_imagenet_data.py	/^def _build_bounding_box_lookup(/
+_build_synset_lookup	./pvanet/data/build_imagenet_data.py	/^def _build_synset_lookup(/
+_bytes_feature	./pvanet/data/build_image_data.py	/^def _bytes_feature(/
+_bytes_feature	./pvanet/data/build_imagenet_data.py	/^def _bytes_feature(/
+_convert_to_example	./pvanet/data/build_image_data.py	/^def _convert_to_example(/
+_convert_to_example	./pvanet/data/build_imagenet_data.py	/^def _convert_to_example(/
+_current_arg_scope	./pvanet/slim/scopes.py	/^def _current_arg_scope(/
+_eval_once	./pvanet/pvanet_eval.py	/^def _eval_once(/
+_find_human_readable_labels	./pvanet/data/build_imagenet_data.py	/^def _find_human_readable_labels(/
+_find_image_bounding_boxes	./pvanet/data/build_imagenet_data.py	/^def _find_image_bounding_boxes(/
+_find_image_files	./pvanet/data/build_image_data.py	/^def _find_image_files(/
+_find_image_files	./pvanet/data/build_imagenet_data.py	/^def _find_image_files(/
+_float_feature	./pvanet/data/build_imagenet_data.py	/^def _float_feature(/
+_get_arg_stack	./pvanet/slim/scopes.py	/^def _get_arg_stack(/
+_int64_feature	./pvanet/data/build_image_data.py	/^def _int64_feature(/
+_int64_feature	./pvanet/data/build_imagenet_data.py	/^def _int64_feature(/
+_is_cmyk	./pvanet/data/build_imagenet_data.py	/^def _is_cmyk(/
+_is_png	./pvanet/data/build_image_data.py	/^def _is_png(/
+_is_png	./pvanet/data/build_imagenet_data.py	/^def _is_png(/
+_process_dataset	./pvanet/data/build_image_data.py	/^def _process_dataset(/
+_process_dataset	./pvanet/data/build_imagenet_data.py	/^def _process_dataset(/
+_process_image	./pvanet/data/build_image_data.py	/^def _process_image(/
+_process_image	./pvanet/data/build_imagenet_data.py	/^def _process_image(/
+_process_image_files	./pvanet/data/build_image_data.py	/^def _process_image_files(/
+_process_image_files	./pvanet/data/build_imagenet_data.py	/^def _process_image_files(/
+_process_image_files_batch	./pvanet/data/build_image_data.py	/^def _process_image_files_batch(/
+_process_image_files_batch	./pvanet/data/build_imagenet_data.py	/^def _process_image_files_batch(/
+_tower_loss	./pvanet/pvanet_train.py	/^def _tower_loss(/
+_two_element_tuple	./pvanet/slim/ops.py	/^def _two_element_tuple(/
+add	./pvanet/slim/network.py	/^    def add(/
+add_arg_scope	./pvanet/slim/scopes.py	/^def add_arg_scope(/
+add_variable	./pvanet/slim/variables.py	/^def add_variable(/
+arg_scope	./pvanet/slim/scopes.py	/^def arg_scope(/
+available_subsets	./pvanet/dataset.py	/^  def available_subsets(/
+avg_pool	./pvanet/slim/network.py	/^    def avg_pool(/
+avg_pool	./pvanet/slim/ops.py	/^def avg_pool(/
+batch_inputs	./pvanet/image_processing.py	/^def batch_inputs(/
+batch_norm	./pvanet/slim/ops.py	/^def batch_norm(/
+batch_normalization	./pvanet/slim/network.py	/^    def batch_normalization(/
+bn_scale_combo	./pvanet/slim/network.py	/^    def bn_scale_combo(/
+bn_scale_drop_relu_combo	./pvanet/slim/network.py	/^    def bn_scale_drop_relu_combo(/
+build_image_data	./pvanet/data/build_image_data.py	1
+build_imagenet_data	./pvanet/data/build_imagenet_data.py	1
+build_loss	./pvanet/slim/network.py	/^    def build_loss(/
+cmyk_to_rgb	./pvanet/data/build_imagenet_data.py	/^  def cmyk_to_rgb(/
+collections_test	./pvanet/slim/collections_test.py	1
+concat	./pvanet/slim/network.py	/^    def concat(/
+conv	./pvanet/slim/network.py	/^    def conv(/
+conv2d	./pvanet/slim/ops.py	/^def conv2d(/
+conv2d	./pvanet/slim/scopes.py	/^  def conv2d(/
+cross_entropy_loss	./pvanet/slim/losses.py	/^def cross_entropy_loss(/
+data_files	./pvanet/dataset.py	/^  def data_files(/
+dataset	./pvanet/dataset.py	1
+decode_jpeg	./pvanet/data/build_image_data.py	/^  def decode_jpeg(/
+decode_jpeg	./pvanet/data/build_imagenet_data.py	/^  def decode_jpeg(/
+decode_jpeg	./pvanet/image_processing.py	/^def decode_jpeg(/
+distort_color	./pvanet/image_processing.py	/^def distort_color(/
+distort_image	./pvanet/image_processing.py	/^def distort_image(/
+distorted_inputs	./pvanet/image_processing.py	/^def distorted_inputs(/
+download_message	./pvanet/dataset.py	/^  def download_message(/
+download_message	./pvanet/imagenet_data.py	/^  def download_message(/
+dropout	./pvanet/slim/network.py	/^    def dropout(/
+dropout	./pvanet/slim/ops.py	/^def dropout(/
+eval_image	./pvanet/image_processing.py	/^def eval_image(/
+evaluate	./pvanet/pvanet_eval.py	/^def evaluate(/
+fc	./pvanet/slim/network.py	/^    def fc(/
+fc	./pvanet/slim/ops.py	/^def fc(/
+feed	./pvanet/slim/network.py	/^    def feed(/
+flatten	./pvanet/slim/ops.py	/^def flatten(/
+func1	./pvanet/slim/scopes_test.py	/^def func1(/
+func2	./pvanet/slim/scopes_test.py	/^def func2(/
+func_with_args	./pvanet/slim/scopes.py	/^  def func_with_args(/
+get	./pvanet/slim/PVAnet_ImageNet.py	/^    def get(/
+get_output	./pvanet/slim/network.py	/^    def get_output(/
+get_unique_name	./pvanet/slim/network.py	/^    def get_unique_name(/
+get_unique_variable	./pvanet/slim/variables.py	/^def get_unique_variable(/
+get_variables	./pvanet/slim/collections_test.py	/^def get_variables(/
+get_variables	./pvanet/slim/variables.py	/^def get_variables(/
+get_variables_by_name	./pvanet/slim/collections_test.py	/^def get_variables_by_name(/
+get_variables_by_name	./pvanet/slim/variables.py	/^def get_variables_by_name(/
+get_variables_to_restore	./pvanet/slim/variables.py	/^def get_variables_to_restore(/
+global_step	./pvanet/slim/variables.py	/^def global_step(/
+has_arg_scope	./pvanet/slim/scopes.py	/^def has_arg_scope(/
+image_preprocessing	./pvanet/image_processing.py	/^def image_preprocessing(/
+image_processing	./pvanet/image_processing.py	1
+imagenet_data	./pvanet/imagenet_data.py	1
+imagenet_eval	./pvanet/imagenet_eval.py	1
+imagenet_train	./pvanet/imagenet_train.py	1
+include_original	./pvanet/slim/network.py	/^def include_original(/
+inference	./pvanet/pvanet_model.py	/^def inference(/
+inputs	./pvanet/image_processing.py	/^def inputs(/
+l1_l2_regularizer	./pvanet/slim/losses.py	/^def l1_l2_regularizer(/
+l1_loss	./pvanet/slim/losses.py	/^def l1_loss(/
+l1_regularizer	./pvanet/slim/losses.py	/^def l1_regularizer(/
+l2_loss	./pvanet/slim/losses.py	/^def l2_loss(/
+l2_regularizer	./pvanet/slim/losses.py	/^def l2_regularizer(/
+l2_regularizer	./pvanet/slim/network.py	/^    def l2_regularizer(/
+layer	./pvanet/slim/network.py	/^def layer(/
+layer_decorated	./pvanet/slim/network.py	/^    def layer_decorated(/
+load	./pvanet/slim/network.py	/^    def load(/
+loss	./pvanet/pvanet_model.py	/^def loss(/
+losses	./pvanet/slim/losses.py	1
+losses_test	./pvanet/slim/losses_test.py	1
+lrn	./pvanet/slim/network.py	/^    def lrn(/
+main	./pvanet/data/build_image_data.py	/^def main(/
+main	./pvanet/data/build_imagenet_data.py	/^def main(/
+main	./pvanet/imagenet_eval.py	/^def main(/
+main	./pvanet/imagenet_train.py	/^def main(/
+make_var	./pvanet/slim/network.py	/^    def make_var(/
+max_pool	./pvanet/slim/network.py	/^    def max_pool(/
+max_pool	./pvanet/slim/ops.py	/^def max_pool(/
+meta_decorator	./pvanet/slim/network.py	/^    def meta_decorator(/
+negation	./pvanet/slim/network.py	/^    def negation(/
+network	./pvanet/slim/network.py	1
+num_classes	./pvanet/dataset.py	/^  def num_classes(/
+num_classes	./pvanet/imagenet_data.py	/^  def num_classes(/
+num_examples_per_epoch	./pvanet/dataset.py	/^  def num_examples_per_epoch(/
+num_examples_per_epoch	./pvanet/imagenet_data.py	/^  def num_examples_per_epoch(/
+one_hot_encoding	./pvanet/slim/ops.py	/^def one_hot_encoding(/
+ops	./pvanet/slim/ops.py	1
+ops_test	./pvanet/slim/ops_test.py	1
+parse_example_proto	./pvanet/image_processing.py	/^def parse_example_proto(/
+png_to_jpeg	./pvanet/data/build_image_data.py	/^  def png_to_jpeg(/
+png_to_jpeg	./pvanet/data/build_imagenet_data.py	/^  def png_to_jpeg(/
+preprocess_imagenet_validation_data	./pvanet/data/preprocess_imagenet_validation_data.py	1
+process_bounding_boxes	./pvanet/data/process_bounding_boxes.py	1
+pva_inception_res_block	./pvanet/slim/network.py	/^    def pva_inception_res_block(/
+pva_inception_res_stack	./pvanet/slim/network.py	/^    def pva_inception_res_stack(/
+pva_negation_block	./pvanet/slim/network.py	/^    def pva_negation_block(/
+pva_negation_block_v2	./pvanet/slim/network.py	/^    def pva_negation_block_v2(/
+pvanet_eval	./pvanet/pvanet_eval.py	1
+pvanet_model	./pvanet/pvanet_model.py	1
+pvanet_model	./pvanet/slim/pvanet_model.py	1
+pvanet_test	./pvanet/slim/pvanet_test.py	1
+pvanet_train	./pvanet/pvanet_train.py	1
+pvanet_v3	./pvanet/slim/pvanet_model.py	/^def pvanet_v3(/
+pvanet_v3_parameters	./pvanet/slim/pvanet_model.py	/^def pvanet_v3_parameters(/
+reader	./pvanet/dataset.py	/^  def reader(/
+regularizer	./pvanet/slim/losses.py	/^  def regularizer(/
+regularizer	./pvanet/slim/losses.py	/^  def regularizer(/
+regularizer	./pvanet/slim/losses.py	/^  def regularizer(/
+regularizer	./pvanet/slim/network.py	/^        def regularizer(/
+relu	./pvanet/slim/network.py	/^    def relu(/
+repeat_op	./pvanet/slim/ops.py	/^def repeat_op(/
+reshape_layer	./pvanet/slim/network.py	/^    def reshape_layer(/
+scale	./pvanet/slim/network.py	/^    def scale(/
+scopes	./pvanet/slim/scopes.py	1
+scopes_test	./pvanet/slim/scopes_test.py	1
+setup	./pvanet/slim/network.py	/^    def setup(/
+slim	./pvanet/slim/slim.py	1
+smooth_l1_dist	./pvanet/slim/network.py	/^    def smooth_l1_dist(/
+softmax	./pvanet/slim/network.py	/^    def softmax(/
+spatial_reshape_layer	./pvanet/slim/network.py	/^    def spatial_reshape_layer(/
+spatial_softmax	./pvanet/slim/network.py	/^    def spatial_softmax(/
+testBuildEndPoints	./pvanet/slim/pvanet_test.py	/^  def testBuildEndPoints(/
+testBuildLogits	./pvanet/slim/pvanet_test.py	/^  def testBuildLogits(/
+testComputeMovingVars	./pvanet/slim/ops_test.py	/^  def testComputeMovingVars(/
+testConvWithBatchNorm	./pvanet/slim/ops_test.py	/^  def testConvWithBatchNorm(/
+testCreateAvgPool	./pvanet/slim/ops_test.py	/^  def testCreateAvgPool(/
+testCreateAvgPoolSAME	./pvanet/slim/ops_test.py	/^  def testCreateAvgPoolSAME(/
+testCreateAvgPoolStrideSAME	./pvanet/slim/ops_test.py	/^  def testCreateAvgPoolStrideSAME(/
+testCreateAvgPoolWithScope	./pvanet/slim/ops_test.py	/^  def testCreateAvgPoolWithScope(/
+testCreateConv	./pvanet/slim/ops_test.py	/^  def testCreateConv(/
+testCreateConvCreatesWeightsAndBiasesVars	./pvanet/slim/ops_test.py	/^  def testCreateConvCreatesWeightsAndBiasesVars(/
+testCreateConvValid	./pvanet/slim/ops_test.py	/^  def testCreateConvValid(/
+testCreateConvWithScope	./pvanet/slim/ops_test.py	/^  def testCreateConvWithScope(/
+testCreateConvWithStride	./pvanet/slim/ops_test.py	/^  def testCreateConvWithStride(/
+testCreateConvWithTensorShape	./pvanet/slim/ops_test.py	/^  def testCreateConvWithTensorShape(/
+testCreateConvWithWD	./pvanet/slim/ops_test.py	/^  def testCreateConvWithWD(/
+testCreateConvWithoutActivation	./pvanet/slim/ops_test.py	/^  def testCreateConvWithoutActivation(/
+testCreateConvWithoutWD	./pvanet/slim/ops_test.py	/^  def testCreateConvWithoutWD(/
+testCreateDropout	./pvanet/slim/ops_test.py	/^  def testCreateDropout(/
+testCreateDropoutNoTraining	./pvanet/slim/ops_test.py	/^  def testCreateDropoutNoTraining(/
+testCreateFC	./pvanet/slim/ops_test.py	/^  def testCreateFC(/
+testCreateFCWithScope	./pvanet/slim/ops_test.py	/^  def testCreateFCWithScope(/
+testCreateFCWithWD	./pvanet/slim/ops_test.py	/^  def testCreateFCWithWD(/
+testCreateFCWithoutActivation	./pvanet/slim/ops_test.py	/^  def testCreateFCWithoutActivation(/
+testCreateFCWithoutWD	./pvanet/slim/ops_test.py	/^  def testCreateFCWithoutWD(/
+testCreateFcCreatesWeightsAndBiasesVars	./pvanet/slim/ops_test.py	/^  def testCreateFcCreatesWeightsAndBiasesVars(/
+testCreateFullyConv	./pvanet/slim/ops_test.py	/^  def testCreateFullyConv(/
+testCreateHorizontalConv	./pvanet/slim/ops_test.py	/^  def testCreateHorizontalConv(/
+testCreateMaxPool	./pvanet/slim/ops_test.py	/^  def testCreateMaxPool(/
+testCreateMaxPoolSAME	./pvanet/slim/ops_test.py	/^  def testCreateMaxPoolSAME(/
+testCreateMaxPoolStrideSAME	./pvanet/slim/ops_test.py	/^  def testCreateMaxPoolStrideSAME(/
+testCreateMaxPoolWithScope	./pvanet/slim/ops_test.py	/^  def testCreateMaxPoolWithScope(/
+testCreateMovingVars	./pvanet/slim/ops_test.py	/^  def testCreateMovingVars(/
+testCreateOp	./pvanet/slim/ops_test.py	/^  def testCreateOp(/
+testCreateSquareAvgPool	./pvanet/slim/ops_test.py	/^  def testCreateSquareAvgPool(/
+testCreateSquareConv	./pvanet/slim/ops_test.py	/^  def testCreateSquareConv(/
+testCreateSquareMaxPool	./pvanet/slim/ops_test.py	/^  def testCreateSquareMaxPool(/
+testCreateVariable	./pvanet/slim/variables_test.py	/^  def testCreateVariable(/
+testCreateVariables	./pvanet/slim/ops_test.py	/^  def testCreateVariables(/
+testCreateVariablesWithScale	./pvanet/slim/ops_test.py	/^  def testCreateVariablesWithScale(/
+testCreateVariablesWithoutCenterWithScale	./pvanet/slim/ops_test.py	/^  def testCreateVariablesWithoutCenterWithScale(/
+testCreateVariablesWithoutCenterWithoutScale	./pvanet/slim/ops_test.py	/^  def testCreateVariablesWithoutCenterWithoutScale(/
+testCreateVerticalConv	./pvanet/slim/ops_test.py	/^  def testCreateVerticalConv(/
+testCrossEntropyLossAllCorrect	./pvanet/slim/losses_test.py	/^  def testCrossEntropyLossAllCorrect(/
+testCrossEntropyLossAllWrong	./pvanet/slim/losses_test.py	/^  def testCrossEntropyLossAllWrong(/
+testCrossEntropyLossAllWrongWithWeight	./pvanet/slim/losses_test.py	/^  def testCrossEntropyLossAllWrongWithWeight(/
+testCurrentArgScope	./pvanet/slim/scopes_test.py	/^  def testCurrentArgScope(/
+testCurrentArgScopeNested	./pvanet/slim/scopes_test.py	/^  def testCurrentArgScopeNested(/
+testDevice	./pvanet/slim/variables_test.py	/^  def testDevice(/
+testDeviceFn	./pvanet/slim/variables_test.py	/^  def testDeviceFn(/
+testEmptyArgScope	./pvanet/slim/scopes_test.py	/^  def testEmptyArgScope(/
+testEvalMovingVars	./pvanet/slim/ops_test.py	/^  def testEvalMovingVars(/
+testEvaluation	./pvanet/slim/pvanet_test.py	/^  def testEvaluation(/
+testFCWithBatchNorm	./pvanet/slim/ops_test.py	/^  def testFCWithBatchNorm(/
+testFlatten3D	./pvanet/slim/ops_test.py	/^  def testFlatten3D(/
+testFlatten4D	./pvanet/slim/ops_test.py	/^  def testFlatten4D(/
+testFlattenBatchSize	./pvanet/slim/ops_test.py	/^  def testFlattenBatchSize(/
+testGetMixedVariablesToRestore	./pvanet/slim/variables_test.py	/^  def testGetMixedVariablesToRestore(/
+testGetThrowsExceptionWithChildrenButNoMatch	./pvanet/slim/variables_test.py	/^  def testGetThrowsExceptionWithChildrenButNoMatch(/
+testGetVariableGivenNameScoped	./pvanet/slim/variables_test.py	/^  def testGetVariableGivenNameScoped(/
+testGetVariableThrowsExceptionWithNoMatch	./pvanet/slim/variables_test.py	/^  def testGetVariableThrowsExceptionWithNoMatch(/
+testGetVariableWithDistractors	./pvanet/slim/variables_test.py	/^  def testGetVariableWithDistractors(/
+testGetVariableWithSingleVar	./pvanet/slim/variables_test.py	/^  def testGetVariableWithSingleVar(/
+testGetVariables	./pvanet/slim/variables_test.py	/^  def testGetVariables(/
+testGetVariablesByNameReturnsByValueWithScope	./pvanet/slim/variables_test.py	/^  def testGetVariablesByNameReturnsByValueWithScope(/
+testGetVariablesByNameReturnsByValueWithoutScope	./pvanet/slim/variables_test.py	/^  def testGetVariablesByNameReturnsByValueWithoutScope(/
+testGetVariablesSuffix	./pvanet/slim/variables_test.py	/^  def testGetVariablesSuffix(/
+testGetVariablesToRestore	./pvanet/slim/variables_test.py	/^  def testGetVariablesToRestore(/
+testGlobalAvgPool	./pvanet/slim/ops_test.py	/^  def testGlobalAvgPool(/
+testGlobalMaxPool	./pvanet/slim/ops_test.py	/^  def testGlobalMaxPool(/
+testHalfSizeImages	./pvanet/slim/pvanet_test.py	/^  def testHalfSizeImages(/
+testL1L2Regularizer	./pvanet/slim/losses_test.py	/^  def testL1L2Regularizer(/
+testL1L2RegularizerWithScope	./pvanet/slim/losses_test.py	/^  def testL1L2RegularizerWithScope(/
+testL1L2RegularizerWithWeights	./pvanet/slim/losses_test.py	/^  def testL1L2RegularizerWithWeights(/
+testL1Loss	./pvanet/slim/losses_test.py	/^  def testL1Loss(/
+testL1Regularizer	./pvanet/slim/losses_test.py	/^  def testL1Regularizer(/
+testL1RegularizerWithScope	./pvanet/slim/losses_test.py	/^  def testL1RegularizerWithScope(/
+testL1RegularizerWithWeight	./pvanet/slim/losses_test.py	/^  def testL1RegularizerWithWeight(/
+testL2Loss	./pvanet/slim/losses_test.py	/^  def testL2Loss(/
+testL2Regularizer	./pvanet/slim/losses_test.py	/^  def testL2Regularizer(/
+testL2RegularizerWithScope	./pvanet/slim/losses_test.py	/^  def testL2RegularizerWithScope(/
+testL2RegularizerWithWeight	./pvanet/slim/losses_test.py	/^  def testL2RegularizerWithWeight(/
+testMovingAverageVariables	./pvanet/slim/ops_test.py	/^  def testMovingAverageVariables(/
+testNestedArgScope	./pvanet/slim/scopes_test.py	/^  def testNestedArgScope(/
+testNonReuseVars	./pvanet/slim/ops_test.py	/^  def testNonReuseVars(/
+testNonReuseVars	./pvanet/slim/ops_test.py	/^  def testNonReuseVars(/
+testNoneGetVariablesToRestore	./pvanet/slim/variables_test.py	/^  def testNoneGetVariablesToRestore(/
+testOneHotEncoding	./pvanet/slim/ops_test.py	/^  def testOneHotEncoding(/
+testOneHotEncodingCreate	./pvanet/slim/ops_test.py	/^  def testOneHotEncodingCreate(/
+testOverwriteArgScope	./pvanet/slim/scopes_test.py	/^  def testOverwriteArgScope(/
+testPartiallySharedArgScope	./pvanet/slim/scopes_test.py	/^  def testPartiallySharedArgScope(/
+testRegularizationLosses	./pvanet/slim/collections_test.py	/^  def testRegularizationLosses(/
+testReplicaDeviceSetter	./pvanet/slim/variables_test.py	/^  def testReplicaDeviceSetter(/
+testReuseArgScope	./pvanet/slim/scopes_test.py	/^  def testReuseArgScope(/
+testReuseArgScopeNested	./pvanet/slim/scopes_test.py	/^  def testReuseArgScopeNested(/
+testReuseConvWithBatchNorm	./pvanet/slim/ops_test.py	/^  def testReuseConvWithBatchNorm(/
+testReuseConvWithWD	./pvanet/slim/ops_test.py	/^  def testReuseConvWithWD(/
+testReuseFCWithBatchNorm	./pvanet/slim/ops_test.py	/^  def testReuseFCWithBatchNorm(/
+testReuseFCWithWD	./pvanet/slim/ops_test.py	/^  def testReuseFCWithWD(/
+testReuseUpdateOps	./pvanet/slim/ops_test.py	/^  def testReuseUpdateOps(/
+testReuseVariable	./pvanet/slim/variables_test.py	/^  def testReuseVariable(/
+testReuseVariables	./pvanet/slim/ops_test.py	/^  def testReuseVariables(/
+testReuseVars	./pvanet/slim/ops_test.py	/^  def testReuseVars(/
+testReuseVars	./pvanet/slim/ops_test.py	/^  def testReuseVars(/
+testReuseVars	./pvanet/slim/ops_test.py	/^  def testReuseVars(/
+testSharedArgScope	./pvanet/slim/scopes_test.py	/^  def testSharedArgScope(/
+testSharedArgScopeTuple	./pvanet/slim/scopes_test.py	/^  def testSharedArgScopeTuple(/
+testSimpleArgScope	./pvanet/slim/scopes_test.py	/^  def testSimpleArgScope(/
+testSimpleArgScopeWithTuple	./pvanet/slim/scopes_test.py	/^  def testSimpleArgScopeWithTuple(/
+testStable	./pvanet/slim/variables_test.py	/^  def testStable(/
+testTotalLossWithRegularization	./pvanet/slim/collections_test.py	/^  def testTotalLossWithRegularization(/
+testTotalLossWithoutRegularization	./pvanet/slim/collections_test.py	/^  def testTotalLossWithoutRegularization(/
+testTrainEvalWithReuse	./pvanet/slim/pvanet_test.py	/^  def testTrainEvalWithReuse(/
+testUnknowBatchSize	./pvanet/slim/pvanet_test.py	/^  def testUnknowBatchSize(/
+testUpdateOps	./pvanet/slim/ops_test.py	/^  def testUpdateOps(/
+testVariableCollection	./pvanet/slim/variables_test.py	/^  def testVariableCollection(/
+testVariableCollections	./pvanet/slim/variables_test.py	/^  def testVariableCollections(/
+testVariableCollectionsWithArgScope	./pvanet/slim/variables_test.py	/^  def testVariableCollectionsWithArgScope(/
+testVariableCollectionsWithArgScopeNested	./pvanet/slim/variables_test.py	/^  def testVariableCollectionsWithArgScopeNested(/
+testVariableCollectionsWithArgScopeNonNested	./pvanet/slim/variables_test.py	/^  def testVariableCollectionsWithArgScopeNonNested(/
+testVariableGPUPlacement	./pvanet/slim/variables_test.py	/^  def testVariableGPUPlacement(/
+testVariableRestoreWithArgScopeNested	./pvanet/slim/variables_test.py	/^  def testVariableRestoreWithArgScopeNested(/
+testVariableWithDevice	./pvanet/slim/variables_test.py	/^  def testVariableWithDevice(/
+testVariableWithDeviceFromScope	./pvanet/slim/variables_test.py	/^  def testVariableWithDeviceFromScope(/
+testVariableWithDeviceFunction	./pvanet/slim/variables_test.py	/^  def testVariableWithDeviceFunction(/
+testVariableWithReplicaDeviceSetter	./pvanet/slim/variables_test.py	/^  def testVariableWithReplicaDeviceSetter(/
+testVariableWithVariableDeviceChooser	./pvanet/slim/variables_test.py	/^  def testVariableWithVariableDeviceChooser(/
+testVariableWithVariableDeviceChooser	./pvanet/slim/variables_test.py	/^  def testVariableWithVariableDeviceChooser(/
+testVariables	./pvanet/slim/collections_test.py	/^  def testVariables(/
+testVariablesByLayer	./pvanet/slim/collections_test.py	/^  def testVariablesByLayer(/
+testVariablesSetDevice	./pvanet/slim/pvanet_test.py	/^  def testVariablesSetDevice(/
+testVariablesToRestore	./pvanet/slim/collections_test.py	/^  def testVariablesToRestore(/
+testVariablesToRestoreWithoutLogits	./pvanet/slim/collections_test.py	/^  def testVariablesToRestoreWithoutLogits(/
+testVariablesWithoutBatchNorm	./pvanet/slim/collections_test.py	/^  def testVariablesWithoutBatchNorm(/
+train	./pvanet/pvanet_train.py	/^def train(/
+upconv	./pvanet/slim/network.py	/^    def upconv(/
+validate_padding	./pvanet/slim/network.py	/^    def validate_padding(/
+variable	./pvanet/slim/variables.py	/^def variable(/
+variable_device	./pvanet/slim/variables.py	/^def variable_device(/
+variables	./pvanet/slim/variables.py	1
+variables_test	./pvanet/slim/variables_test.py	1
