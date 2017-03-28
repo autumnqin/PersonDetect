@@ -444,6 +444,22 @@ class Network(object):
             return bn
 
     @layer
+    def bn_scale_drop_relu_combo(self, input, c_in, name):
+        """ PVA net BN -> Scale -> Relu"""
+        with tf.variable_scope(name) as scope:
+            bn = self.batch_normalization._original(self, input, name='bn', relu=False, is_training=False)
+            alpha = tf.get_variable('bn_scale/alpha', shape=[c_in, ], dtype=tf.float32,
+                                initializer=tf.constant_initializer(1.0), trainable=True,
+                                regularizer=self.l2_regularizer(0.00001))
+            beta = tf.get_variable('bn_scale/beta', shape=[c_in, ], dtype=tf.float32,
+                               initializer=tf.constant_initializer(0.0), trainable=True,
+                               regularizer=self.l2_regularizer(0.00001))
+            bn = tf.add(tf.multiply(bn, alpha), beta)
+            bn = tf.nn.dropout(bn, 0.5, 'dropout')
+            bn = tf.nn.relu(bn, name='relu')
+            return bn
+
+    @layer
     def pva_negation_block(self, input, k_h, k_w, c_o, s_h, s_w, name, biased=True, padding=DEFAULT_PADDING, trainable=True,
                            scale = True, negation = True):
         """ for PVA net, Conv -> BN -> Neg -> Concat -> Scale -> Relu"""
@@ -551,18 +567,6 @@ class Network(object):
                 conv = self.bn_scale_combo._original(self, conv, c_in=c_out, name='out', relu=False)
                 conv = self.add._original(self, [conv, proj], name='sum')
 
-                ### Add by QQP Start
-                conv = self.batch_normalization._original(self, conv, name='last_bn', relu=False, is_training=False)
-                alpha = tf.get_variable('last_bn_scale/alpha', shape=[c_out, ], dtype=tf.float32,
-                                    initializer=tf.constant_initializer(1.0), trainable=True,
-                                    regularizer=self.l2_regularizer(0.00001))
-                beta = tf.get_variable('last_bn_scale/beta', shape=[c_out, ], dtype=tf.float32,
-                                   initializer=tf.constant_initializer(0.0), trainable=True,
-                                   regularizer=self.l2_regularizer(0.00001))
-                conv = tf.add(tf.multiply(conv, alpha), beta)
-                conv = tf.nn.relu(conv, name='last_relu')
-
-                ### Add by QQP End
             else:
                 conv = self.add._original(self, [conv, proj], name='sum')
         return  conv

@@ -1,0 +1,1 @@
+python dv.py --model /home/qinqiuping/ml/serverData/PleaseDontMove/PVAnet_iter_85000.ckpt --net PVAnet_test --video /home/qinqiuping/ml/data/body_move/UCF11_updated_mpg/basketball/v_shooting_05/v_shooting_05_01.mpg
